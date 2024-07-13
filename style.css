@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* width: 100%;
+    height: 100vh; */
+    background: rgb(0, 12, 12);
+}
+.box{
+    background-color: rgb(244, 239, 245);
+    height: 500px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 5px;
+    box-shadow: 4px 3px 2px 0px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+form{
+    width: 100%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.box form input{
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+}
+.box form i{
+    padding-left: 10px;
+    color: grey;
+}
+.product{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 13px;
+}
+.product img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.product h3{
+    font-size: 15px;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.product h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+}
+.product h3,h4{
+    padding-left: 15px;
+}
+.product-list{
+    padding: 20px 0;
+}
+.box::-webkit-scrollbar{
+    display: none;
+}
